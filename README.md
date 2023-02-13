@@ -16,9 +16,11 @@
 It took me about 5 Hours designing this website.
 
 ## Final Outputs:
-![Output](/Screenshot-1.png)  
-![Output](/Screenshot-2.png)  
 ![Output](/Screenshot-3.png)  
+***
+![Output](/Screenshot-2.png)  
+***
+![Output](/Screenshot-1.png)  
 
 # Project link
 [![Live Project 8](https://img.shields.io/badge/Project--8-Netlify-blue)](https://iyuvrajsha-project8.netlify.app/ "Project 8")
