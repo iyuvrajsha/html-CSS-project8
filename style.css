@@ -1,0 +1,289 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+*{
+  margin: 0;
+  padding :0;
+}
+body{
+  /* padding: 0.2em; */
+  background-color: #f8f8fa;
+}
+header
+{
+  display: flex;
+  flex-direction: column;
+  background: #4517fe;
+  padding-top: 1em;
+}
+.header-top{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1em 4em;
+}
+.logo{
+  position: relative;
+  top: 1em;
+}
+nav a{
+  color: white;
+  padding: 0.1em 0.2em;
+  margin: 0.4em;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+nav a:hover{
+  background-color: #ffffff;
+  color: #4517fe;
+  opacity: 1;
+}
+.header-bottom{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4em;
+}
+.header-text{
+  /* display: flex; */
+  color: #ffffff;
+  height: fit-content;
+  padding: 6.2em 0em;
+}
+.header-text h2{
+  font-size: 3em;
+}
+.header-image{
+  position: absolute;
+  bottom: -5em; 
+  right: 0em; 
+  filter: drop-shadow(0px 0px 5px rgba(56, 56, 56, 0.546));
+}
+.companies{
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 3em;
+}
+.company-items{
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: 'Righteous';
+  padding: 1em 2em 1em 0em;
+  font-size: 1.2em;
+}
+.api{
+  display: flex;
+  flex-direction: column;
+  padding: 0em 4em 0em 4em;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.card, .card-active{
+  padding: 3em 1em;
+  border-radius: 10px;
+  margin: 1em 0.5em;
+  /* margin: auto; */
+}
+.card-active{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgb(0 0 0 / 0%);
+}
+.card-head-active{
+  color: #5a31fc;
+}
+.cards::after{
+  content: '>';
+  display: flex;
+  font-family: initial;
+  font-size: 2em;
+  font-weight: lighter;
+  color: #ffffff;
+  background-color: #5a31fc;
+  padding: 0rem 0.7rem;
+  border-radius: 50%;
+}
+
+.blog-heading{
+  padding-left: 4em;
+  padding-right: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.blog-heading h1{
+  display: flex;
+}
+.blog-heading::after{
+  content: 'See All Article';
+  color: #5a31fc;
+  font-weight: bolder;
+}
+.blog-cards{
+  display: flex;
+  margin: 2em 3em;
+}
+.blog-card{
+  display: flex;
+  position: relative;
+  background-color: white;
+  margin: 0em 1em;
+  border-radius: 13px;
+  border-top-left-radius: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.blog-image{
+  /* position: absolute; */
+  display: flex;
+}
+.blog-content{
+  padding: 2em 1em 2em 3em;
+}
+.blog-content h6{
+  color: #5a31fc;
+}
+.blog-content h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.blog-bottom{
+  display: flex;
+  position: absolute;
+  bottom: -1em;
+  right: 11em;
+  width: fit-content;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.blog-author{
+  display: flex;
+  position: absolute;
+  bottom: 0em;
+  right: 1.5em;
+  width: max-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.faq-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9edff;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 4%), 0 6px 20px 0 rgb(0 0 0 / 20%);
+  padding-left: 4em;
+}
+.faq-section h2{
+  padding-bottom: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.faq-section h4{
+  padding: 1em 0em;
+  padding-top: 0.5em;
+}
+.faq-section h4:nth-child(3){
+  font-size: 1.2em;
+
+}
+.faq-content{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.faq-content button{
+  width: fit-content;
+  padding: 0.5em 3em;
+  background-color: #5a31fc;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+.faq-image{
+  display: flex;
+}
+
+.download-section{
+  display: flex;
+  padding: 5em 4em;
+  background-color: white;
+  justify-content: space-between;
+}
+.download-content h1
+{
+  font-family: 'Righteous';
+}
+.download-content span{
+  font-weight: lighter;
+  font-size: 0.9em;
+}
+.download-email{
+  display: flex;
+  width: 40%;
+}
+.download-email form{
+  display: flex;
+  background-color: #e9edff;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 3em;
+  padding: 0.3em;
+  padding-left: 1em;
+}
+.download-email input{
+  background: transparent;
+  border: none;
+  width: 50%;
+  outline: none;
+}
+.download-email button{
+  width: fit-content;
+  padding: 0.7em 3em;
+  background-color: #5a31fc;
+  border: none;
+  border-radius: 2em;
+  color: white;
+}
+
+.footer-section{
+  display: flex;
+  background-color: #4517fe;
+  justify-content: space-between;
+  padding: 3em 4em;
+}
+.footer-section ul{
+  list-style: none;
+  display: flex;
+}
+.list-items{
+  color: #c6b8ff;
+  padding: 0em 1.5em;
+  margin: 2em 0em;
+  font-size: 0.85em;
+}
+li:first-child{
+  padding-left: 0;
+}
+
+li:nth-last-child(1),li:nth-last-child(2),li:nth-last-child(3)
+{
+  border-left: 1px solid rgb(163 140 254 / 37%);
+}
+.logos-list li:first-child{
+  border: none;
+}
+.footer-logos{
+  padding: 0em 0.5em;
+}
+
